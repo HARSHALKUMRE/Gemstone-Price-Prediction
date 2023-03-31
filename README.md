@@ -1,1 +1,1 @@
-# Gemsytone-Price-Prediction
+# Gemstone-Price-Prediction
