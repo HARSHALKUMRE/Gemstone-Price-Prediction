@@ -25,7 +25,7 @@ class DataIngestion:
     def initate_data_ingestion(self):
         logging.info('Data ingestion method Started')
         try:
-            df = pd.read_csv('/config/workspace/notebooks/data/gemstone.csv')
+            df = pd.read_csv('G:\\100-days-of-dl\\Krish Naik\\FSDS Ineuron Course\\projects\\Gemstone-Price-Prediction\\notebooks\\data\\gemstone.csv')
             logging.info('Dataset read as pandas Dataframe')
 
             os.makedirs(os.path.dirname(self.data_ingestion_config.raw_data_path),exist_ok=True)
