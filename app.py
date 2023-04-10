@@ -3,7 +3,6 @@ from flask_cors import CORS,cross_origin
 from gemstone.pipeline.prediction_pipeline import CustomData, PredictPipeline
 
 application = Flask(__name__)
-
 app = application
 
 @app.route('/')
